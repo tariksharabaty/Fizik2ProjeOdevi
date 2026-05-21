@@ -26,8 +26,8 @@
 
 **• Simülasyon Çıktısı (Matplotlib Grafik Paneli):**
 
-*(Buraya grafiğin ekran görüntüsünü sürükleyip bırakabilirsin)*
+https://github.com/tariksharabaty/Fizik2ProjeOdevi/blob/main/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202026-05-21%20213344.png?raw=true
 
 **• Örnek Konsol Çıktısı:**
 
-*(Buraya terminal çıktısının ekran görüntüsünü sürükleyip bırakabilirsin)*
+https://github.com/tariksharabaty/Fizik2ProjeOdevi/blob/main/image.png?raw=true
