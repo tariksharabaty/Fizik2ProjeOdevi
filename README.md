@@ -1,34 +1,33 @@
-# Fizik2FinalOdevi
-İstanbul Kent Üniversitesi Matematik ödevi için C++ programlama dili kullanılarak geliştirilmiş, ikinci derecen fonksiyonların köklerini hesaplayan bir uygulamadır.
+# Veri Merkezlerinde Fiziksel Limitler ve Mühendislik Optimizasyonu
+
+İstanbul Kent Üniversitesi Fizik-2 proje ödevi kapsamında, modern veri merkezlerinde karşılaşılan fiziksel darboğazları (Joule ısınması, elektromanyetik girişim, fiber optik sinyal zayıflaması) analiz etmek amacıyla Python programlama dili kullanılarak geliştirilmiş bir simülasyon ve modelleme çalışmasıdır.
 
 **Öğrenci Bilgileri:**
 
-•AD SOYAD: Tarek Sharabaty
+* **AD SOYAD:** Tarek Sharabaty
+* **ÖĞRENCİ NO:** 2507020015
+* **BÖLÜM:** Bilgisayar Mühendisliği
+* **DERS:** Fizik-2
 
-•ÖĞRENCİ NO: 2507020015
+**Programın Çalışma Mantığı ve Modellenen Fiziksel Kuramlar:**
 
-•BÖLÜM: Bilgisayar Mühendisliği
+1) **Joule Isınması ve Enerji Verimliliği:** **P = I²R** formülü ile yüksek akım taşıyan sunucu hatlarındaki termal güç kayıpları hesaplanır. Ayrıca toplam enerji tüketimi üzerinden veri merkezi verimlilik analizi (PUE) modellenir.
+2) **Elektromanyetik Girişim (EMI):** Ampère Yasası (**B = μ₀I / 2πr**) baz alınarak, iletkenlerden geçen akımın çevrede oluşturduğu manyetik alanın mesafeye bağlı değişimi mikroTesla (μT) cinsinden hesaplanır.
+3) **Fiber Optik ve Kritik Açı:** Işık sinyallerinin kablo dışına sızmaması için gereken tam iç yansıma prensibi, Snell Yasası kullanılarak analiz edilir ve kritik açı derece cinsinden hesaplanır.
+4) **Sinyal Sönümlenmesi (Attenuation):** Fiber hatlarda mesafeye bağlı olarak yaşanan sinyal kayıpları, üstel bir fonksiyon olan **P(x) = P₀e^(-αx)** formülü ile modellenir.
+5) **Veri Görselleştirme:** Elde edilen tüm sayısal veriler `matplotlib` kütüphanesi yardımıyla hesaplanarak, tek bir ekranda dört farklı grafik halinde görselleştirilir.
 
-**Programın Çalışma Mantığı :**
+**Kullanılan Kütüphaneler:**
+* `numpy`: Sayısal veri setleri ve matris hesaplamaları.
+* `matplotlib.pyplot`: Fiziksel modellerin grafiksel dökümü.
+* `math`: Trigonometrik ve üstel matematiksel dönüşümler.
 
-1) Güvenli Veri Girişi: Kullanıcıdan a, b ve c katsayıları istenirken, girilen değerin gerçekten bir sayı olup olmadığı kontrol edilir.
-2) Diskriminant Hesaplaması: Girilen katsayılara göre Δ = b^2 - 4ac formülü ile diskriminant hesaplanır.
-3) Kök Durumunun Analizi:
+**Programdan Ekran Görüntüleri**
 
-   Δ > 0: İki farklı reel kök hesaplanır ve yazdırılır.
-   Δ = 0: Tek bir (çift katlı) reel kök hesaplanır.
-   Δ < 0: Reel kök bulunmadığı belirtilir.
+**• Simülasyon Çıktısı (Matplotlib Grafik Paneli):**
 
-   **Programdan Ekran Görüntüleri**
-   
-   **•Örn:** 4x^2 + 5x - 7
-   
-   <img width="695" height="305" alt="Image" src="https://github.com/user-attachments/assets/f0f17793-0ffe-4f9e-85eb-2390563392a7" />
+*(Buraya grafiğin ekran görüntüsünü sürükleyip bırakabilirsin)*
 
-   **•Örn:** 4x^2 + 5x + 10
-   
-   <img width="704" height="272" alt="Image" src="https://github.com/user-attachments/assets/ff009f3d-dae5-403c-aa03-82109e3fd4d3" />
+**• Örnek Konsol Çıktısı:**
 
-   **•Örn:** 1x^2 - 6x + 4
-   
-   <img width="698" height="305" alt="Image" src="https://github.com/user-attachments/assets/ad5c40cf-853a-4299-9ec6-42891a5c4fdc" />
+*(Buraya terminal çıktısının ekran görüntüsünü sürükleyip bırakabilirsin)*
