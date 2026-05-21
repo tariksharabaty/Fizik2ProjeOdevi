@@ -26,8 +26,8 @@
 
 **• Simülasyon Çıktısı (Matplotlib Grafik Paneli):**
 
-https://github.com/tariksharabaty/Fizik2ProjeOdevi/blob/main/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202026-05-21%20213344.png?raw=true
+<img width="1878" height="944" alt="Image" src="https://github.com/user-attachments/assets/ebc97b32-a779-4130-8d78-1affb2fa2e23" />
 
 **• Örnek Konsol Çıktısı:**
 
-https://github.com/tariksharabaty/Fizik2ProjeOdevi/blob/main/image.png?raw=true
+<img width="1097" height="213" alt="Image" src="https://github.com/user-attachments/assets/e515b832-1b61-48bb-b317-82965af82e53" />
